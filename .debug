@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionList>
+  <Extension Id="com.infinitibeat.shockpaper.panel">
+    <HostList>
+      <Host Name="IDSN" Port="5050"/>
+    </HostList>
+  </Extension>
+</ExtensionList>
