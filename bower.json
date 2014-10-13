@@ -15,7 +15,7 @@
     "Shockpaper",
     "ChiaYu"
   ],
-  "license": "Private",
+  "license": "MIT",
   "homepage": "http://www.shockpaper.com",
   "ignore": [
     "**/.*",
