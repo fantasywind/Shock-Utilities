@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="5.0" ExtensionBundleId="com.infinitibeat.shockpaper" ExtensionBundleVersion="1.0">
+  <Author>Chia Yu Pai</Author>
   <ExtensionList>
     <Extension Id="com.infinitibeat.shockpaper.panel" Version="1.0" />
   </ExtensionList>
@@ -19,6 +20,7 @@
       <DispatchInfo>
         <Resources>
           <MainPath>./index.html</MainPath>
+          <ScriptPath>./jsx/hostscript.jsx</ScriptPath>
           <CEFCommandLine />
         </Resources>
         <Lifecycle>

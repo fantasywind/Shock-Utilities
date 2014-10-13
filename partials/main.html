@@ -1,7 +1,7 @@
 <div class='row'>
   <div class='col-xs-12 main-background-color'>
     <h1 class='main-title'>Shock Utilies</h1>
-    <form role='form' class='main-theme'>
+    <form role='form' ng-submit='generate()' class='main-theme'>
       <div class='form-group'>
         <label for='article-title'>文章標題</label>
         <input type='text' class='form-control' id='article-title' placeholder='文章標題' />
@@ -13,6 +13,9 @@
       <div class='form-group'>
         <label for='article-content'>內文</label>
         <textarea class='form-control' placeholder='請輸入文章內文' id='article-content'></textarea>
+      </div>
+      <div class='form-group'>
+        <button type='submit' class='btn btn-sm btn-block btn-primary'>產生</button>
       </div>
     </form>
   </div>

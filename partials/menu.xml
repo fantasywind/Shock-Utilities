@@ -1,0 +1,3 @@
+<Menu>
+  <MenuItem Id="addArticle" Label="排版文章" Enabled="true" Checked="false" />
+</Menu>

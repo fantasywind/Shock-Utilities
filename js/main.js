@@ -3,6 +3,7 @@
 angular.module('shockUtilies', [
   'ngRoute'
 ])
+.value('ROOT', __dirname + '/')
 .config(function($routeProvider) {
   $routeProvider
     .when('/', {
@@ -12,7 +13,4 @@ angular.module('shockUtilies', [
     .otherwise({
       redirectTo: '/'
     });
-})
-.controller('MainCtrl', function ($scope) {
-  console.log('MainCtrl')
-})
+});
